@@ -1,0 +1,20 @@
+{
+  "capital_change": -17,
+  "junior": 5,
+  "senior": 98,
+  "trace": [
+    {
+      "junior": 0,
+      "senior": 95,
+      "timestamp": 1,
+      "unabsorbed_loss": 0
+    },
+    {
+      "junior": 5,
+      "senior": 98,
+      "timestamp": 2,
+      "unabsorbed_loss": 0
+    }
+  ],
+  "unabsorbed_loss": 0
+}

@@ -1,0 +1,17 @@
+{
+  "senior": 100,
+  "junior": 20,
+  "senior_coupon": 3,
+  "events": [
+    {
+      "timestamp": 1,
+      "kind": "loss",
+      "amount": 25
+    },
+    {
+      "timestamp": 2,
+      "kind": "gain",
+      "amount": 8
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-structured-defi-tranches"
+version = "0.1.0"
+description = "Replay gains and losses through senior coupon and junior first-loss capital with insolvency accounting."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-structured-defi-tranches = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]
